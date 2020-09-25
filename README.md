@@ -28,8 +28,8 @@ Our best model for predicting WNV is using the XGBClassifier. As we're dealing w
 #### Model scores:
 
 |Model |Kaggle Private|Kaggle Public
-|:-------|------------|
-|**RandomForestClassifier + SMOTE**|0.613|0.638
+|:-------|------------|------------|
+|**RandomForestClassifier + SMOTE**|0.613|0.638|
 |**XGBClassifier + SMOTE**|0.621|0.638|
 |**AdaBoostClassifier + SMOTE**|0.550|0.548|
 
