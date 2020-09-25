@@ -25,11 +25,13 @@ To better formulate action strategies and to prevent a possible WNV outbreak, Ch
 ## Model Evaluation
 Our best model for predicting WNV is using the XGBClassifier. As we're dealing with an imbalanced dataset, we would using the SMOTE transformer in our pipeline to re-balance our minority class.
 
-|Model||Kaggle Public
-|:-------|------------|
-|**RandomForestClassifier + SMOTE**|0.668|
-|**XGBClassifier + SMOTE**|0.xxx|
-|**AdaBoostClassifier + SMOTE**|0.xxx|
+#### Model scores:
+
+|Model |Kaggle Private|Kaggle Public
+|:-------|------------|------------|
+|**RandomForestClassifier + SMOTE**|0.613|0.638|
+|**XGBClassifier + SMOTE**|0.621|0.638|
+|**AdaBoostClassifier + SMOTE**|0.550|0.548|
 
 
 
