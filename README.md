@@ -2,7 +2,7 @@
 
 
 ## Problem Statement:
-To develop a predictive model that will forecast the probability of WNV presence in 138 mosquito traps around Chicago over the course of a season. We would also be analysing the cost-benefit analysis of spraying to mitigate the effects of the WNV being spread from mosquitos.
+To develop a predictive model that will forecast the probability of WNV presence in 138 mosquito traps around Chicago over the course of a season. A Cost-Benefit Analysis of spraying to mitigate the effects of the WNV being spread from mosquitos will also be conducted to determine the whether the current solution is a viable option to reudce the presence of the virus in Chicago.
 
 
 ## Executive Summary:
@@ -38,7 +38,7 @@ Our best model for predicting WNV is using the XGBClassifier. As we're dealing w
 ## Recommendations
 **1) The study of seasonal weather patterns on mosquito behaviour**
 As observed in our EDA section, the relationship between the weather features is still unclear. On top of this, it can be observed that the presence of WNV peaks around the approximately same few months YOY, regardless of weather patterns. This could also indicate that there could be other influencing factors, for example dense human population in certain areas.
- 
+
 **2) Understanding how WNV is transmitted by mosquitos**
 As WNV is only transmitted by a crossbred species of mosquitoes (Culex Restauns/Pipiens), from a city management and health perspective, understanding the behaviors and habitats of this mosquito species will enable better modelling of effective mosquito eradication efforts.
 
